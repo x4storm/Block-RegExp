@@ -1,0 +1,26 @@
+{
+  "name": "block-regexp",
+  "version": "0.1.0",
+  "description": "Write RegExp in block code, allow space and comment etc. Inspired by coffeescript.",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/x4storm/Block-RegExp.git"
+  },
+  "keywords": [
+    "RegExp"
+  ],
+  "author": "x4storm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/x4storm/Block-RegExp/issues"
+  },
+  "homepage": "https://github.com/x4storm/Block-RegExp#readme"
+}
