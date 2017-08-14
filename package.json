@@ -8,7 +8,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup -c",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/x4storm/Block-RegExp/issues"
   },
-  "homepage": "https://github.com/x4storm/Block-RegExp#readme"
+  "homepage": "https://github.com/x4storm/Block-RegExp#readme",
+  "devDependencies": {
+    "jest": "^20.0.4",
+    "rollup": "^0.47.4"
+  }
 }
