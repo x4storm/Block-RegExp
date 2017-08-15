@@ -9,6 +9,7 @@
   },
   "scripts": {
     "build": "rollup -c",
+    "dev": "rollup -c -w",
     "test": "jest"
   },
   "repository": {
@@ -25,7 +26,11 @@
   },
   "homepage": "https://github.com/x4storm/Block-RegExp#readme",
   "devDependencies": {
+    "babel-preset-env": "^1.6.0",
     "jest": "^20.0.4",
-    "rollup": "^0.47.4"
+    "rollup": "^0.47.4",
+    "rollup-plugin-babel": "^3.0.1",
+    "rollup-plugin-json": "^2.3.0",
+    "rollup-watch": "^4.3.1"
   }
 }

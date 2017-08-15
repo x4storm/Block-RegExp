@@ -3,11 +3,11 @@
 
 某些情况下，正则表达式是既难以编写又不利于阅读的。因为它结构紧凑，无法轻易划分出各重要组成部分，并且无法在关键得地方插入注释。
 
-现在，你可以像在 CoffeeScript 中写正则表达式一样了：
+现在，你可以像在 CoffeeScript 中写正则表达式一样了：  
 你可以将正则表达式放置在多行字符串中，添加任意的空白使结构更加优雅清晰，支持以 `#` 开头的单行注释。
 
 ```javascript
-let demoReg = `
+let demoReg = `# flags = img
   ^ https?  |   # begin with http or https
   ^ ://         # or begin with relative protocal
 `
@@ -15,7 +15,7 @@ let demoReg = `
 
 # 特性
 - [x] 允许任意的空白
-- [x] 自动转码字符串
-- [x] 支持单行字符串
+- [x] 自动转义
+- [x] 支持单行注释和魔术注释
 - [ ] 支持插值
 - [ ] 支持自定义代换

@@ -1,13 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>Block RegExp Demo</title>
+  <script src="../dist/block-regexp.js"></script>
 </head>
 <body>
-  Demo
-  <script>
-    function a(){}
-  </script>
+<h1>Block RegExp Demo</h1>
+<script>
+let reg = BlockRegExp
+const log = console.log
+
+let i18n = 'en'
+
+let pReg = reg`# flags = img
+  ^ https?://${i18n}.test.com  |   # begin with http or https
+  ^ ://         # or begin with relative protocal
+`
+
+log(pReg.test('http://www.baidu.com'))
+</script>
 </body>
 </html>
