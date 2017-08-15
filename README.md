@@ -1,4 +1,4 @@
-# Block-RegExp
+# Block-RegExp [中文说明](./README.cn.md)
 Write RegExp in block code, allow space and comment etc. Inspired by coffeescript.
 
 Sometimes, RegExp is hard to write and read. it has no clear struct, we can't comment in important point.
