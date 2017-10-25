@@ -19,3 +19,5 @@ let demoReg = `
 - [x] auto eascaping char
 - [x] support single line comment
 - [ ] support value interplotion
+
+u
